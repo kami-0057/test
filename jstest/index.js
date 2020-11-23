@@ -1,7 +1,12 @@
 (function () {
     return () => {
-       console.log('text');
+        console.log('text');
+        return ()=>{
+            console.log(2);
+        }
     }
+    
+
 })()
 
 
